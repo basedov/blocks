@@ -1,0 +1,83 @@
+body{
+    background-color: cadetblue;
+    color: honeydew;
+    font-family: cursive;
+    font-size: 30px;
+    display: block;
+}
+
+p{
+    color: honeydew;
+    font-family: cursive;
+    font-size: 30px;
+    background-color: crimson;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    color: honeydew;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+span{
+    border: 4px dashed green;
+}
+
+ul{
+    background-color: darkgoldenrod;
+}
+
+ul li{
+    display: inline-block;
+    border: 3px dashed darkolivegreen;
+    width: 140px;
+    height: 40px;
+}
+
+ul li:hover{
+  background-color: darkmagenta;
+  border:2px double darkgreen;
+}
+
+#first{
+    background-color: chocolate;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 50px;
+    border-style: dotted ridge;
+    border-width: 10px;
+    border-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second{
+    background-color:blueviolet;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 10px;
+    border-style:groove;
+    border-color: darkblue yellowgreen;
+}
+
+.out {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(96, 16, 172);
+    padding: 20px;
+}
+
+.in {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(204, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
